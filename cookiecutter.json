@@ -1,0 +1,17 @@
+{
+  "project_name": "Boilerplate",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_short_description": "Python Boilerplate contains all the boilerplate you need to create a Python package.",
+  "full_name": "Glen Jarvis",
+  "email": "glen@glenjarvis.com",
+  "github_username": "glenjarvis",
+  "github_project_uri": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}",
+  "issue_tracker_uri": "{{ cookiecutter.github_project_uri }}/issues",
+  "pypi_username": "{{ cookiecutter.github_username }}",
+  "version": "0.0.1",
+  "use_pypi_deployment_with_travis": "n",
+  "add_pyup_badge": "y",
+  "command_line_interface": ["No command-line interface", "Click"],
+  "create_author_file": "y",
+  "open_source_license": ["MIT license", "Not open source"]
+}
