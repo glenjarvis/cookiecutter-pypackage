@@ -82,7 +82,7 @@ If you need help with background knowledge, see online training video: https://G
 
 7. Install extra packages for development::
 
-       (venv)$  pip install -r requirements_dev.txt
+       (venv)$  pip install -r develop_requirements.txt
 
 8. Install the Git Hooks. Copy the contents of ``githooks`` into your checked
    out project's ``.git/hooks`` folder::
