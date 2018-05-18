@@ -76,7 +76,7 @@ If you need help with background knowledge, see online training video: https://G
 
 6. Pip install as editable. This project is in wheel format. So, simply install
    a reference in your virtual environment so that you can edit files in this
-   folder and see an immediate affect in the virtual environment:: 
+   folder and see an immediate affect in the virtual environment::
 
        (venv)$ pip install --editable .
 
@@ -219,8 +219,8 @@ Tips and Tricks
 * TravisCI will run tests against your pull requests and catch test errors:
   https://travis-ci.org/{{ cookiecutter.github_username }}/{{
   cookiecutter.project_slug }}/pull_requests
- 
-* The pull request should work for Python 2.7, 3.4, 3.5 and 3.6, and for PyPy. 
+
+* The pull request should work for Python 2.7, 3.4, 3.5 and 3.6, and for PyPy.
   Running ``tox`` locally will help catch errors across versions of Python
   and make sure that the tests pass for all supported Python versions::
 
