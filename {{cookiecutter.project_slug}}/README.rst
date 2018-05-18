@@ -20,8 +20,8 @@ Project and Build Status
      :target: https://pyup.io/repos/github/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/
      :alt: Python 3
 
-.. image:: https://readthedocs.org/projects/test-20180517-03/badge/?version=latest
-     :target: http://test-20180517-03.readthedocs.io/en/latest/?badge=latest
+.. image:: https://readthedocs.org/projects/{{  cookiecutter.project_slug  }}/badge/?version=latest
+     :target: http://{{ cookiecutter.project_slug }}.readthedocs.io/en/latest/?badge=latest
      :alt: Documentation Status
 
 .. There is currently a problem at Appveyor
