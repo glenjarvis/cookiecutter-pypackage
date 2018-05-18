@@ -171,9 +171,12 @@ Extra Code Style
   smaller functions/methods whenever possible.
 
 * The pull request should work for Python 2.7, 3.4, 3.5 and 3.6, and for PyPy.
-  Check https://travis-ci.org/{{ cookiecutter.github_username }}/{{
-  cookiecutter.project_slug }}/pull_requests and make sure that the tests pass
-  for all supported Python versions.
+  Either run `tox` locally, or check https://travis-ci.org/{{
+  cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/pull_requests
+  and make sure that the tests pass for all supported Python versions::
+
+      $ tox
+
 
 * Follow the Zen::
 
